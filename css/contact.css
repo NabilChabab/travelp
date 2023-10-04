@@ -1,0 +1,193 @@
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+:root{
+	--bg-color: #fff;
+	--text-color: #221314;
+	--second-color: #5a7184;
+	--main-color: #6e54fa;
+	--big-font: 6rem;
+	--h2-font: 3rem;
+	--p-font: 1.1rem;
+}
+body{
+	background: var(--bg-color);
+	color: var(--text-color);
+}
+
+header{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: transparent;
+	padding: 30px 18%;
+	transition: ease .40s;
+}
+.logo{
+	font-size: 35px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: var(--bg-color);
+}
+.navbar{
+	display: flex;
+}
+.navbar a{
+	color: var(--bg-color);
+	font-size: var(--p-font);
+	font-weight: 500;
+	padding: 10px 22px;
+	border-radius: 4px;
+	transition: ease .40s;
+}
+.navbar a:hover{
+	background: var(--bg-color);
+	color: var(--text-color);
+	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+	border-radius: 4px;
+}
+#menu-icon{
+	color: var(--bg-color);
+	font-size: 35px;
+	z-index: 10001;
+	cursor: pointer;
+	display: none;
+}
+
+
+.contact{
+    padding: 30px 10% 30px;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: var(--main-color);
+	align-items: center;
+    justify-content: space-around;
+}
+.news-text h2{
+	margin-bottom: 5px;
+	color: white;
+    font-size: 4rem;
+}
+.news-text p{
+	color: white;
+	line-height: 30px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.news-text a{
+    background-color: transparent;
+    border-radius: 20px;
+    color: var(--bg-color);
+    font-weight: bold;
+    font-size: 25px;
+    transition: all .4s ease;
+}
+
+.news-text a i{
+    font-size: 30px;
+    vertical-align: middle;
+    margin-bottom: 1px;
+    transition: all .4s ease;
+    outline: none;
+
+}
+
+.news-text a:hover {
+    background-color: transparent;
+    color: white;
+    
+}
+
+.news-text a:hover i{
+    transform: translateX(20px);
+}
+
+.contact form{
+	max-width: 100%;
+	width: 100%;
+}
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 20px 30px;
+	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+	outline: none;
+	border: none;
+	border-radius: 15px;
+    margin-right: 10px;
+}
+
+
+
+.contact form input:last-child{
+	display: inline-block;
+	width: 100%;
+	padding: 20px 150px 20px 30px;
+	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+	outline: none;
+	border: none;
+	border-radius: 15px;
+    margin-right: 10px;
+}
+
+.contact form textarea{
+    display: inline-block;
+	width: 100%;
+	padding: 20px 150px 20px 30px;
+	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+	outline: none;
+	border: none;
+	border-radius: 15px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.send a{
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    color: var(--main-color);
+    font-weight: var(--p-font);
+    transition: all .4s ease;
+}
+
+.send a i{
+    font-size: 30px;
+    vertical-align: middle;
+    margin-bottom: 1px;
+    transition: all .4s ease;
+    outline: none;
+
+}
+
+.send a:hover {
+    background-color: transparent;
+    color: white;
+    
+}
+
+.send a:hover i{
+    transform: translateX(20px);
+}
