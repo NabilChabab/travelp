@@ -92,13 +92,27 @@ header.sticky{
 .news-text h2{
 	margin-bottom: 5px;
 	color: white;
-    font-size: 4rem;
+    font-size: 4.5rem;
 }
 .news-text p{
 	color: white;
 	line-height: 30px;
     font-size: 1.2rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.news-text .social_mediaic{
+	margin-bottom: 20px;
+}
+
+.news-text .social_mediaic a i{
+	font-size: 25px;
+	margin-right: 10px;
+	transition: all .4s ease;
+}
+
+.news-text .social_mediaic a i:hover{
+	transform: translateY(-20px);
 }
 
 .news-text a{
@@ -125,11 +139,12 @@ header.sticky{
     
 }
 
-.news-text a:hover i{
+.news-text a:hover{
     transform: translateX(20px);
 }
 
 .contact form{
+	margin-top: 100px;
 	max-width: 100%;
 	width: 100%;
 }
@@ -175,30 +190,23 @@ header.sticky{
     margin-bottom: 30px;
 }
 
-.send a{
+.send button{
     background-color: white;
     padding: 15px 30px;
     border-radius: 20px;
     color: var(--main-color);
     font-weight: var(--p-font);
     transition: all .4s ease;
+	border: none;
+	outline: none;
 }
 
-.send a i{
-    font-size: 30px;
-    vertical-align: middle;
-    margin-bottom: 1px;
-    transition: all .4s ease;
-    outline: none;
 
-}
-
-.send a:hover {
+.send button:hover {
     background-color: transparent;
     color: white;
+	border: 2px solid var(--bg-color);
+	cursor: pointer;
+	outline: none;
     
-}
-
-.send a:hover i{
-    transform: translateX(20px);
 }
