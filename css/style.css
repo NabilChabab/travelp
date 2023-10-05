@@ -8,8 +8,8 @@
 	scroll-behavior: smooth;
 }
 :root{
-	--bg-color: #fff;
-	--text-color: #221314;
+	--bg-color: white;
+	--text-color: black;
 	--second-color: #5a7184;
 	--main-color: #6e54fa;
 	--big-font: 6rem;
@@ -210,8 +210,8 @@ header.sticky{
 	cursor: pointer;
 }
 .container-img img{
-	height: 85px;
-	width: 85px;
+	height: auto;
+	width: 20%;
 	padding: 15px;
 	background: var(--bg-color);
 	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);

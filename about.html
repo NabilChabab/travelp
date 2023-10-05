@@ -1,8 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Security-Policy" content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;">
+
+	<meta
+  name="description"
+  content="Mary's simple recipe for maple bacon donuts
+           makes a sticky, sweet treat with just a hint
+           of salt that you'll keep coming back for.">
 	<title>Travigo - Travel for everyone</title>
 	<link rel="stylesheet" type="text/css" href="css/about.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -18,14 +25,14 @@
 <body>
 	<!--header--->
 	<header>
-		<a href="#" class="logo">LOGO</a>
+		<a href="#" aria-label="Read more" class="logo">LOGO</a>
 		<div class="bx bx-menu" id="menu-icon"></div>
 
 		<ul class="navbar">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="tours.html">Tours</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="index.html" aria-label="Read more">Home</a></li>
+			<li><a href="tours.html" aria-label="Read more">Tours</a></li>
+			<li><a href="about.html" aria-label="Read more">About</a></li>
+			<li><a href="contact.html" aria-label="Read more">Contact Us</a></li>
 		</ul>
 	</header>
 
@@ -54,7 +61,7 @@
 				<p>Founded in 2005 by three university friends in Düsseldorf (Germany), trivago has since become a leading global accommodation search website. We are focused on reshaping the way millions of travelers search for and compare hotels and other accommodations. Part of Expedia Group (NASDAQ: TRVG), trivago’s mission is to become your companion to experience our world. </p>
 			</div>
 			<div class="container-img-b">
-				<img src="img/tourism.jpg">
+				<img src="img/tourism.jpg" alt="#">
 			</div>
 
 		</div>
@@ -64,7 +71,7 @@
 	<section class="container">
 		<div class="row-items">
 			<div class="container-img-b">
-				<img src="img/maroc.jpg">
+				<img src="img/maroc.jpg" alt="#">
 			</div>
 			<div class="container-box">
 				<p>we organize perfect trips all over Morocco.
@@ -98,19 +105,19 @@
 
 		<div class="destination-content">
 			<div class="blog-content">
-				<img src="img/img-1.jpg">
+				<img src="img/img-1.jpg" alt="#">
 				<h5>Careers at trivago</h5>
 				<p>Find out more about our open roles, working culture, benefits, D&I approach and how we recruit.</p>
 			</div>
 
 			<div class="blog-content">
-				<img src="img/img-2.jpg">
+				<img src="img/img-2.jpg" alt="#">
 				<h5>Tech blog</h5>
 				<p>Get insight into our projects, prototypes and tech stack from our developers!</p>
 			</div>
 
 			<div class="blog-content">
-				<img src="img/img-3.jpg">
+				<img src="img/img-3.jpg" alt="#">
 				<h5>trivago blog</h5>
 				<p>A central source of actionable insights into hotel marketing, technology, and trends.</p>
 			</div>
@@ -127,43 +134,43 @@
 				<div class="list">
 					<h4>Quick Links</h4>
 					<ul>
-						<li><a href="#">About us</a></li>
-						<li><a href="#">Terms & Conditions</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Help</a></li>
-						<li><a href="#">Tours</a></li>
+						<li><a href="#" aria-label="Read more">About us</a></li>
+						<li><a href="#" aria-label="Read more">Terms & Conditions</a></li>
+						<li><a href="#" aria-label="Read more">Privacy Policy</a></li>
+						<li><a href="#" aria-label="Read more">Help</a></li>
+						<li><a href="#" aria-label="Read more">Tours</a></li>
 					</ul>
 				</div>
 
 				<div class="list">
 					<h4>Support</h4>
 					<ul>
-						<li><a href="#">About us</a></li>
-						<li><a href="#">Terms & Conditions</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Help</a></li>
-						<li><a href="#">Tour</a></li>
+						<li><a href="#" aria-label="Read more">About us</a></li>
+						<li><a href="#" aria-label="Read more">Terms & Conditions</a></li>
+						<li><a href="#" aria-label="Read more">Privacy Policy</a></li>
+						<li><a href="#" aria-label="Read more">Help</a></li>
+						<li><a href="#" aria-label="Read more">Tour</a></li>
 					</ul>
 				</div>
 
 				<div class="list">
 					<h4>Contact Info</h4>
 					<ul>
-						<li><a href="#">98 West 21th Street</a></li>
-						<li><a href="#">New York NY 10016</a></li>
-						<li><a href="#">+(123)-123-1234</a></li>
-						<li><a href="#">info@travigo.com</a></li>
-						<li><a href="#">+(123)-123-1234</a></li>
+						<li><a href="#" aria-label="Read more">98 West 21th Street</a></li>
+						<li><a href="#" aria-label="Read more">New York NY 10016</a></li>
+						<li><a href="#" aria-label="Read more">+(123)-123-1234</a></li>
+						<li><a href="#" aria-label="Read more">info@travigo.com</a></li>
+						<li><a href="#" aria-label="Read more">+(123)-123-1234</a></li>
 					</ul>
 				</div>
 
 				<div class="list">
 					<h4>Connect</h4>
 					<div class="social">
-						<a href="#"><i class='bx bxl-facebook' ></i></a>
-						<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-						<a href="#"><i class='bx bxl-twitter' ></i></a>
-						<a href="#"><i class='bx bxl-linkedin' ></i></a>
+						<a href="#" aria-label="Read more"><i class='bx bxl-facebook' ></i></a>
+						<a href="#" aria-label="Read more"><i class='bx bxl-instagram-alt' ></i></a>
+						<a href="#" aria-label="Read more"><i class='bx bxl-twitter' ></i></a>
+						<a href="#" aria-label="Read more"><i class='bx bxl-linkedin' ></i></a>
 					</div>
 				</div>
 			</div>
