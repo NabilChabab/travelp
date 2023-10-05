@@ -427,13 +427,13 @@ header.sticky{
 .list{
 	width: 25%;
 }
-.list h4{
+.list h1{
 	font-size: 21px;
 	color: var(--bg-color);
 	margin-bottom: 30px;
 	position: relative;
 }
-.list h4::before{
+.list h1::before{
 	content: "";
 	position: absolute;
 	height: 2px;
@@ -446,7 +446,7 @@ header.sticky{
 	margin-bottom: 16px;
 }
 .list ul li a{
-	color: #ffffffbf;
+	color: white;
 	font-size: var(--p-font);
 	display: block;
 	transition: .3s;
